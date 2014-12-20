@@ -1,2 +1,6 @@
-Internet verschlüsselung (RSA,RC4,TLS)
+﻿Internet verschlüsselung (RSA,RC4,TLS,SSH,SSL)
+	->Heartbleed, Shellshock
+	->Entstehung
+	->Verwendung/Technick
+	->Upcoming
 Usenet/World Wide Web alternativen
