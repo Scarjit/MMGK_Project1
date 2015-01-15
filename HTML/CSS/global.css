@@ -5,4 +5,14 @@ body{
 	background-color:#FFFFFF;
 	color:#000000;
 }
-.container{position:relative; padding:0 0 0 75px;}
+.container {
+   width: 45px;
+   height: 130px;
+   position: fixed;
+   left: 10px;
+   top: 100px;
+}
+.maintext{
+    position: absolute;
+    left:100px; top:92px; right:0; bottom:0;
+}
