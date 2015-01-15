@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
-#cssmenu,
-#cssmenu ul,
-#cssmenu ul li,
-#cssmenu ul li a,
-#cssmenu #menu-button {
+#sidebar,
+#sidebar ul,
+#sidebar ul li,
+#sidebar ul li a,
+#sidebar #menu-button {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,8 +15,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-#cssmenu:after,
-#cssmenu > ul:after {
+#sidebar:after,
+#sidebar > ul:after {
   content: ".";
   display: block;
   clear: both;
@@ -24,11 +24,16 @@
   line-height: 0;
   height: 0;
 }
-#cssmenu #menu-button {
+#sidebar #menu-button {
   display: none;
 }
-#cssmenu {
-  width: auto;
+#sidebar {
+  margin:20px 0 0 0;
+  font-family: 'Oswald', sans-serif;
+  position:absolute;
+  top:0; bottom:0; left:0;
+  width:70px;
+  background: url('images/bg.png');
   border: 3px solid #fd8a17;
   border-radius: 3px;
   font-family: 'Oswald', sans-serif;
@@ -36,24 +41,24 @@
   background: #f7f7f0;
   box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
-#cssmenu > ul {
+#sidebar > ul {
   background: url('images/bg.png');
 }
-#cssmenu > ul > li {
+#sidebar > ul > li {
   float: left;
 }
-#cssmenu.align-center > ul {
+#sidebar.align-center > ul {
   font-size: 0;
   text-align: center;
 }
-#cssmenu.align-center > ul > li {
+#sidebar.align-center > ul > li {
   display: inline-block;
   float: none;
 }
-#cssmenu.align-right > ul > li {
+#sidebar.align-right > ul > li {
   float: right;
 }
-#cssmenu > ul > li > a {
+#sidebar > ul > li > a {
   padding: 20px 25px;
   font-size: 14px;
   text-transform: uppercase;
@@ -66,12 +71,12 @@
   -o-transition: all .2s ease;
   transition: all .2s ease;
 }
-#cssmenu > ul > li > a:hover,
-#cssmenu > ul > li:hover > a,
-#cssmenu > ul > li.active > a {
+#sidebar > ul > li > a:hover,
+#sidebar > ul > li:hover > a,
+#sidebar > ul > li.active > a {
   color: #000444;
 }
-#cssmenu #menu-indicator {
+#sidebar #menu-indicator {
   position: absolute;
   bottom: 0;
   display: block;
