@@ -1,0 +1,34 @@
+#wrapper{
+	max-width:10%px;
+	padding:20px;
+	margin:0 auto;
+	background: white;
+}
+.navbar{
+	background:url(images/bg.png);
+	max-width:100%;
+}
+
+.nav{
+	background:url(images/bg.png);
+	max-width:100%;
+	top:0px;
+	position:relative;
+}
+img{
+	height:auto;
+	max-width:100%;
+}
+maintext{
+	max-width:1px;
+}
+.unit-10{
+	top:0px;
+	position:relative;	
+}
+@media screen and (max-width:1000px){
+	#wrapper{
+		padding:0px;
+		max-width:100%;
+	}
+}

@@ -1,6 +1,0 @@
-﻿Internet verschlüsselung (RSA,RC4,TLS,SSH,SSL)
-	->Heartbleed, Shellshock
-	->Entstehung
-	->Verwendung/Technick
-	->Upcoming
-	->NSA/BND/MAD
