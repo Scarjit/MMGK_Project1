@@ -15,6 +15,9 @@
 	top:0px;
 	position:relative;
 }
+.nav,li:hover{
+	background:url(images/bgdark.png);
+}
 img{
 	height:auto;
 	max-width:100%;
@@ -25,6 +28,18 @@ maintext{
 .unit-10{
 	top:0px;
 	position:relative;	
+}
+#PGP{
+	display:none;
+}
+#PGP:target{
+	display:block;
+}
+#TLS{
+	display:none;
+}
+#TLS:target{
+	display:block;
 }
 @media screen and (max-width:1000px){
 	#wrapper{
