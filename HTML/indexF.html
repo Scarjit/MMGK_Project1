@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="JAVASCRIPT/kube.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/kube.min.css">
 <link rel="stylesheet" type="text/css" href="CSS/indexF.css">
@@ -14,7 +15,8 @@
 <nav class="navbar navbar-pills">
 	<ul>
     	<li><a href="#">Index</a></li>
-        <li><a href="#">Site 1</a></li>
+        <li><a href="#">RSA</a></li>
+        <li><a href="#">Seite 3</a></li>
     </ul>
 </nav>
 <div class="units-row">
@@ -29,7 +31,7 @@
 </nav>
 </div>
 <div id ="mt" class="unit-90 end">
-<a name="Einführung"><a><a></a>
+<a name="Einführung"><a>
 <h1>Geschichte</h1><br>
 Die erste Standartisierte Verschlüsselung im Internet war DES in den 1970er Jahren.
 DES (Data Encryption Standart) hat eine Schlüssellänge von 56-Bit.
@@ -53,39 +55,39 @@ In Firefox muss bei einer Verschlüsselten Seite ein Schloss rechts neben der Ad
 Wenn man dieses Anklicked kommt folgendes Popup:<br>
 <img src="IMAGES/Ferdinand/FirefoxDigiCertStep1.png" alt=""/><br>
 Durch ein Klick auf "More Information" öffnet sich ein neues Fenster. Hier wählt man den Security an<br>
-<img src="IMAGES/Ferdinand/FirefoxDigiCertStep2.png" alt=""/>
+<img src="IMAGES/Ferdinand/FirefoxDigiCertStep2.png" alt=""/><br>
 Unter "Connection Enrypted" steht nun der Verschlüsselungs Typ. Hier wird die Verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als Asymmetrische verschlüsselung benutzt. Der Symmetrische Schlüssel ist ein SHA256-Hash welcher mit AES-128 Verschlüsselt ist.
 </div>
 <a href="#CM" class="accordion-title">Chrome</a>
 <div id="CM">
 Bei Google Chrome steht bei verschlüsselten Seiten ein Grünes Schloss rechts neben der Adresse.
-Beim Anklicken öffnet siche nun folgenes Fenster:
-<img src="IMAGES/Ferdinand/MMGKTLS1.2RSA.png" alt=""/>
+Beim Anklicken öffnet siche nun folgenes Fenster:<br>
+<img src="IMAGES/Ferdinand/MMGKTLS1.2RSA.png" alt=""/><br>
 Hier kann direkt abgelesen werden das die Verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als Asymmetrische verschlüsselung benutzt. Der Symmetrische Schlüssel ist ein SHA1-Hash welcher mit AES-256 Verschlüsselt ist.
 </div>
 <a href="#OA" class="accordion-title">Opera</a>
 <div id="OA">
 Bei Opera ist bei versschlüsselten Seiten rechts neben der Adresse ein Schloss.
 Beim Anklicken öffnet sich ein Popup.
-Durch das Drücken von "Details anzeigen" öffnet sich folgendes Fenster:
-<img src="IMAGES/Ferdinand/OperaDigiCert.png" alt=""/>
+Durch das Drücken von "Details anzeigen" öffnet sich folgendes Fenster:<br>
+<img src="IMAGES/Ferdinand/OperaDigiCert.png" alt=""/><br>
 Hier kann direkt abgelesen werden das die Verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als Asymmetrische verschlüsselung benutzt. Der Symmetrische Schlüssel ist ein SHA1-Hash welcher mit AES-256 Verschlüsselt ist.
 </div>
 <a href="#SE" class="accordion-title">Safarie</a>
 <div id="SE">
 Bei Safarie steht bei verschlüsselten Verbindungen ein Schloss links neben der Adresse.
-Bei Anklicken öffnet sich folgendes Fenster:
-<img src="IMAGES/Ferdinand/IEDigiCertStep2.png" alt=""/> 
+Bei Anklicken öffnet sich folgendes Fenster:<br>
+<img src="IMAGES/Ferdinand/IEDigiCertStep2.png" alt=""/><br> 
 Hier kann unter Signaturalgorithmus ausgelesen werden das der Symmetrische Schlüssel ein SHA-256 Schlüssel.
 Die Kommunikation ist mit RSA verschlüsselt.
 Anders als bei anderen Browsern kann nicht ausgelesen werden ob es sich um TLS als Kryptographie Protokoll handelt, auch kann nicht festgestellt werden ob AES zum verschlüsseln des SHA-256 Hash benutzt wird.
 </div>
 <a href="#IE" class="accordion-title">Internet Explorer</a>
 <div id="IE">
-Beim Internet Explorer steht rechts neben der Adresse ein Schloss, fals die Website verschlüsselt ist. Beim Anklicken öffnet sich folgenes Fenster:
-<img src="IMAGES/Ferdinand/IEDigiCertSetp1.png" alt=""/> 
-Ein Klick auf "Zertifikat anzeigen" und dann im neuen Fenster auf "Details" öffnet folgenes Fenster:
-<img src="IMAGES/Ferdinand/IEDigiCertStep2.png" alt=""/> 
+Beim Internet Explorer steht rechts neben der Adresse ein Schloss, fals die Website verschlüsselt ist. Beim Anklicken öffnet sich folgenes Fenster:<br>
+<img src="IMAGES/Ferdinand/IEDigiCertSetp1.png" alt=""/> <br>
+Ein Klick auf "Zertifikat anzeigen" und dann im neuen Fenster auf "Details" öffnet folgenes Fenster:<br>
+<img src="IMAGES/Ferdinand/IEDigiCertStep2.png" alt=""/> <br>
 Hier kann unter Signaturalgorithmus ausgelesen werden das der Symmetrische Schlüssel ein SHA-256 Schlüssel.
 Die Kommunikation ist mit RSA verschlüsselt.
 Anders als bei anderen Browsern kann nicht ausgelesen werden ob es sich um TLS als Kryptographie Protokoll handelt, auch kann nicht festgestellt werden ob AES zum verschlüsseln des SHA-256 Hash benutzt wird.
@@ -172,6 +174,7 @@ Ein Schlüssel dem eine Große Anzahl von Nutzern vertrauen ist mit größerer W
 <br><h1>Andere Verschlüsslungen</h1>
 Text
 <br><h1>Quellen</h1>
+<h3>Letzter Zugriff 20.01.2015:</h3>
 <a target="_blank" href="http://www.pgp.com">pgp.com</a><br>
 <a target="_blank" href="http://en.wikipedia.org/wiki/Web_of_trust">wikipedia.org/wiki/Web_of_trust</a><br>
 <a target="_blank" href="https://www.gnupg.org/gph/en/manual/x135.html">gnupgp.org/gph/en/manual/x135.html</a><br>
@@ -183,11 +186,17 @@ Text
 <a target="_blank" href="http://www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html">www.spiegel.de/international/germany/inside-the-nsa-s-war-on-internet-security-a-1010361.html</a><br>
 <a target="_blank" href="http://www.google.de">google.de</a><br>
 <a target="_blank" href="http://www.paypal.de">paypal.com</a><br>
-Letzter Zugriff 20.01.2015<br>
+<h3>Letzter Zugriff 21.01.2015:</h3>
+<a target="_blank" href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard">en.wikipedia.org/wiki/Advanced_Encryption_Standard</a><br>
+<a target="_blank" href="http://www.cescomm.co.nz/about/encryption.html">www.cescomm.co.nz/about/encryption.html</a><br>
+<a target="_blank" href="http://computer.howstuffworks.com/encryption.htm">computer.howstuffworks.com/encryption.htm</a><br>
+<a href="www.google.com/fonts/specimen/Oswald">https://www.google.com/fonts/specimen/Oswald</a>
+<h3>Bücher:</h3>
+<a href="http://www.amazon.de/Geheime-Botschaften-Verschl%C3%BCsselung-Antike-Internet/dp/3423330716">Simon Singh, Geheime Botschaften</a>
 </div>
-</div><br><a></a>
+</div><br>
 <div id="footer">
-Copyright© 2015 Ferdinand Linnenberg<br>
+  Copyright© 2015 Ferdinand Linnenberg<br>
 Released under <a href="http://creativecommons.org/licenses/by-sa/2.5/legalcode">Creative Commons Attribution-ShareAlike 2.5 Generic</a><br>
 Designed for <a href="http://google.com/chrome/">Google Chrome</a>
 </div>
