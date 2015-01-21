@@ -41,9 +41,48 @@ maintext{
 #TLS:target{
 	display:block;
 }
+#SSL{
+	display:none;
+}
+#SSL:target{
+	display:block;
+}
+#OA{
+	display:none;
+}
+#OA:target{
+	display:block;
+}
+#SE{
+	display:none;
+}
+#SE:target{
+	display:block;
+}
+#FF{
+	display:none;
+}
+#FF:target{
+	display:block;
+}
+#IE{
+	display:none;
+}
+#IE:target{
+	display:block;
+}
+#CM{
+	display:none;
+}
+#CM:target{
+	display:block;
+}
 @media screen and (max-width:1000px){
 	#wrapper{
 		padding:0px;
 		max-width:100%;
+	}
+	.nav{
+		display:none;	
 	}
 }
