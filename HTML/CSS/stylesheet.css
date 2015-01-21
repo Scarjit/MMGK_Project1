@@ -65,9 +65,11 @@ a:active {
 }
 
 #all {
+	position:relative;
+	overflow:auto;
 	margin:0 auto;
 	width: 1000px;
-	height: 1000px;
+	height: 2000px;
 	background-color: #D8D8D8;
 }
 
@@ -87,14 +89,16 @@ a:active {
 }
 
 #sidebar {
+	position:fixed;
 	float:left;
-	width: 18%;
+	width: 11%;
 	margin-top: 55px;
-	margin-left: 5px;
+	margin-left: 8px;
 }
 
 #footbar {
-	margin-top: 175px;
+	position:absolute;
+	bottom:0px;
 }
 
 #menubar, #footbar {
@@ -161,9 +165,6 @@ a:active {
 #menubar ul li.cat4:hover a, #menubar ul li.cat4:hover > ul li a {
     background-color: #004C66;
 }
-#menubar ul li.cat5:hover a, #menubar ul li.cat5:hover > ul li a {
-    background-color: #332B40;
-}
 #menubar ul li:hover > a {
     color: #FAFAFA;
 }
@@ -174,9 +175,46 @@ a {
 }
 
 #text {
-	width:720px;
-	height: 600px;
+	width: 72%;
+	height: 87%;
 	margin-left: 210px;
 	margin-top: 55px;
 	background-color: #FAFAFA;
+	display:block;
+}
+
+.cat1 a, .cat2 a, .cat3 a, .cat4 a {
+	-moz-transition: all 1s ease;
+}
+
+#menubar ul li.cat1 a:after{
+	content:"Geschichte";
+}
+
+#menubar ul li.cat1 a:hover:after{
+	content:"BlubbBlubb";
+}
+
+#menubar ul li.cat2 a:after{
+	content:"RSA";
+}
+
+#menubar ul li.cat2 a:hover:after{
+	content:"BlubbBlubb";
+}
+
+#menubar ul li.cat3 a:after{
+	content:"Thema 1";
+}
+
+#menubar ul li.cat3 a:hover:after{
+	content:"BlubbBlubb";
+}
+
+#menubar ul li.cat4 a:after{
+	content:"Thema 2";
+}
+
+#menubar ul li.cat4 a:hover:after{
+	content:"BlubbBlubb";
 }
