@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>RSA</title>
+	</head>
+	<body>
+		<div id="all">
+			<div id="bild">
+				<p>Verschlüsselung im Internet</p>
+			</div>
+			<div id="menubar">
+				<ul>
+                	<li class = "cat1">
+                    	<a href="#">Geschichte</a>
+                	</li>
+
+                	<li class = "cat2">
+                   		<a href="#">RSA</a>
+                	</li>
+
+                	<li class = "cat3">
+                    	<a href="#">Thema 2</a>
+                	</li>
+
+                	<li class = "cat4">
+                    	<a href="#">Thema 3</a>
+                	</li>
+
+                	<li class = "cat5">
+                    	<a href="#">Impressum</a>
+                	</li>
+            	</ul>
+            </div>
+            <div id="sidebar">
+            	<ul>
+            		<li>
+            			<a href="#">1. Entstehung</a>
+            		</li>
+            		<li>
+            			<a href="#">2. Verfahren</a>
+            		</li>
+            		<li>
+            			<a href="#">3. Sicherheit</a>
+            		</li>
+            	</ul>
+            </div>
+            <div id="text">
+            	<p> test </p>
+            </div>
+            <div id="footbar">
+				<ul>
+                	<li class = "cat6">
+                    	<a href="#">Impressum</a>
+                	</li>
+
+                	<li class = "cat7">
+                   		<a href="#">Quellen</a>
+                	</li>
+
+                	<li class = "cat8">
+                    	<a href="#">Whatever</a>
+                    </li>
+            	</ul>
+            </div>
+        </div>
+	</body>
+</html>   
