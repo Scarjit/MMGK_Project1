@@ -149,10 +149,6 @@ a:active {
 	padding: 10px 0px 10px 0px;
 }
 
-#menubar ul li:hover > ul {
-	visibility: visible;
-}
-
 #menubar ul li.cat1:hover a, #menubar ul li.cat1:hover > ul li a  {
     background-color: #FAAC58;
 }
@@ -167,6 +163,15 @@ a:active {
 }
 #menubar ul li:hover > a {
     color: #FAFAFA;
+}
+#sidebar ul li.cat5:hover a, #sidebar ul li.cat5 > ul li a {
+	font-weight:bold;
+}
+#sidebar ul li.cat6:hover a, #sidebar ul li.cat6 > ul li a {
+	font-weight:bold;
+}
+#sidebar ul li.cat7:hover a, #sidebar ul li.cat7 > ul li a {
+	font-weight:bold;
 }
 
 a {
