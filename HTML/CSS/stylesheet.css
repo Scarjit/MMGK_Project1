@@ -15,8 +15,8 @@ textarea, input {
     padding: 0;    
     border: 0;    
     outline: 0;    
-    font-size: 100%;    
-    vertical-align: baseline;    
+    font-size: 100%;
+/*    vertical-align: baseline;   */ 
     background: transparent;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -73,27 +73,34 @@ a:active {
 	background-color: #D8D8D8;
 }
 
-#bild {
-	background-color:#A4A4A4;
+#head {
+	margin: 0 auto;
 	height: 80px;
-	width: 100%;
+	width: 800px;
 	float:top;
 }
 
-#bild p {
-	position:absolute;
-	font-size: 2em;
-	margin: 15px 0px 10px 30px;
-	font-family: Palatino Linotype;
-	color: #1C1C1C;
+#head p {
+	font-size: 3em;
+	margin-top:10px;
+	font-weight: bold;
+}
+
+#header {
+	font-size:1.5em;
 }
 
 #sidebar {
 	position:fixed;
 	float:left;
 	width: 11%;
-	margin-top: 55px;
+	margin-top: 40px;
 	margin-left: 8px;
+}
+
+#inhalt {
+	font-size:1.3em;
+	font-family:serif;
 }
 
 #footbar {
@@ -183,13 +190,16 @@ a {
 	width: 72%;
 	height: 87%;
 	margin-left: 210px;
-	margin-top: 55px;
+	margin-top: 40px;
 	background-color: #FAFAFA;
 	display:block;
 }
 
 .cat1 a, .cat2 a, .cat3 a, .cat4 a {
-	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+  	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+  	transition: all 1s ease;
 }
 
 #menubar ul li.cat1 a:after{
@@ -222,4 +232,12 @@ a {
 
 #menubar ul li.cat4 a:hover:after{
 	content:"BlubbBlubb";
+}
+
+html { 
+  background: url(http://p1.pichost.me/i/63/1872431.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
