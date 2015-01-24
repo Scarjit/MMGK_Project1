@@ -6,16 +6,17 @@
 <link rel="stylesheet" type="text/css" href="CSS/kube.min.css">
 <link rel="stylesheet" type="text/css" href="CSS/indexF.css">
 <script type="text/javascript" src="JAVASCRIPT/jquery_lesbare_version.js"></script>
-<meta charset="utf-8" http-equiv="content-type" content="text/html" name="viewport" content="device-width"><script type="text/javascript" src="JAVASCRIPT/indexF.js"></script>
+<script type="text/javascript" src="JAVASCRIPT/indexF.js"></script>
+<meta charset="utf-8" http-equiv="content-type" content="text/html" name="viewport" content="device-width">
 <title>Anwendung</title>
 </head>
 <body>
-<noscript><b>Your Browser does not Support Javascript<br>If you are using Internet Explorer consider switching to other Browsers<br>or enable Javascript in your Browser config</b></noscript>
+<noscript><b>Your Browser does not support Javascript<br>If you are using Internet Explorer consider switching to other Browsers<br>or enable Javascript in your Browser config</b></noscript>
 <div id="wrapper">
 <nav class="navbar navbar-pills">
 	<ul>
     	<li><a href="#">Index</a></li>
-        <li><a href="#">RSA</a></li>
+        <li><a href="MMGK_RSA.html">RSA</a></li>
         <li><a href="#">Seite 3</a></li>
     </ul>
 </nav>
@@ -23,84 +24,84 @@
 <div id="sb" class="unit-10 end">
 <nav class="nav">
 	<ul>
-    	<li><a href="#">Einführung</a></li>
+    	<li><a href="#Geschichte">Geschichte</a></li>
     	<li><a href="#Browser">Browser</a></li>
     	<li><a href="#Email">E-Mail/IM</a></li>
     	<li><a href="#Andere">Andere</a></li>
     </ul>
 </nav>
 </div>
-<div id ="mt" class="unit-90 end">
-<a name="Einführung"><a>
-<h1>Geschichte</h1><br>
-Die erste Standartisierte Verschlüsselung im Internet war DES in den 1970er Jahren.
+<div id="mt" class="unit-90 end">
+<a name="Geschichte"></a><a></a>
+<h1>Geschichte</h1>
+Die erste standartisierte Verschlüsselung im Internet war DES in den 1970er Jahren.
 DES (Data Encryption Standart) hat eine Schlüssellänge von 56-Bit.
-Anfand der 2000er wurde mit AES ein Nachfolger für DES eingeführt, da die Schlüssellänge von 56-bit als zu gering galt. Dies lag daran das ein Schlüssel der Länge 56-bit maximal 70,000,000,000,000,000 Kombinationen hat.
-Der neue AES Standart hat Schlüssellängen zwischen 128-bit und 256-bit.
-Ein 128-bit Schlüssel hat 300,000,000,000,000,000,000,000,000,000,000,000 Verschiedene Kombinationen. AES und DES sind beide Symmetrische Verschlüsselungen, womit sie der Strukturellen Schwachstelle unterliegen das Encryption Key und Decryption Key der gleiche ist. Die Schwachstelle ist der Schlüssel austausch, bei dem der Client und der Server den Schlüssel übergeben. Hier kann ein Man-in-the-Middle (Der Angreifer gibt sich als Server oder Client aus und liest den Schlüssel mit.) angriff den Schlüssel abfangen und so die Nachricht lesen. Neuere Verschlüsselungen Basieren deshalb auf einer Asymmetrischen Verschlüsselung. Hierbei gibt es meist einen Öffentliche Datenbank auf den die Public-Keys liegen. Ein Client kann so seine Botschaft mit dem Public Key des Server's verschlüsseln welcher diese mit seinen Private Key entschlüsselt. Diese Form der Datenübertragung hat das Problem das die Asymmetrische verschlüsselung wesentlich langsamer ist als die Symmetrische. Deswegen wird heutzutage meistens eine Kombination benutzt.
-Beispiel:
-Der Client baut eine verbindung zum Server auf. Dabei generiert der Client einen Zufälligen Symmetrischen Schlüssel.
-Diesen Verschlüsselt er dann mit dem Public key des Servers.
-Der Server entschlüsselt diesen Key mit seinen Privaten Key.
-Für die dauer der übertragung verwenden Server und Client jetzt diesen Zufallsgenerieten Schlüssel.
+Anfand der 2000er wurde mit AES ein Nachfolger für DES eingeführt, da die Schlüssellänge von 56-bit als zu gering galt. Dies lag daran, dass ein Schlüssel der Länge 56-bit nur maximal 70,000,000,000,000,000 Kombinationen hat.
+Der neue AES-Standard hat Schlüssellängen zwischen 128-bit und 256-bit.
+Ein 128-bit Schlüssel hat 300,000,000,000,000,000,000,000,000,000,000,000 verschiedene Kombinationen. AES und DES sind beide symmetrische Verschlüsselungen, womit sie der strukturellen Schwachstelle unterliegen, dass der Encryption-Key und der Decryption-Key identisch sind. Die Schwachstelle ist der Schlüsselaustausch, bei dem der Client und der Server den Schlüssel übergeben. Hier kann ein Man-in-the-Middle-angriff  (Der Angreifer fängt die Datenpakete ab, welche den Schlüssel übermitteln und liest den Schlüssel mit.) den Schlüssel abfangen und so die Nachricht lesen. Neuere Verschlüsselungen basieren deshalb auf einer asymmetrischen Verschlüsselung. Hierbei gibt es meist eine öffentliche Datenbank auf der die Public-Keys liegen. Ein Client kann so seine Botschaft mit dem Public-Key des Servers verschlüsseln, welcher diese mit seinem Private-Key entschlüsselt. Diese Form der Datenübertragung hat das Problem, dass die asymmetrische Verschlüsselung wesentlich langsamer ist als die symmetrische. Deswegen wird heutzutage meistens eine Kombination aus beiden benutzt.
+<br>Beispiel:<br>
+Der Client baut eine Verbindung zum Server auf. Dabei generiert der Client einen zufälligen symmetrischen Schlüssel.
+Diesen verschlüsselt er dann mit dem Public-Key des Servers.
+Der Server entschlüsselt diesen Key mit seinem Private-Key.
+Für die Dauer der Übertragung verwenden Server und Client jetzt diesen zufallsgenerierten Schlüssel.
 
-<a name=Browser><br>
+<a name=Browser></a><br>
 <br><h1>Verschlüsselungen innerhalb von Webbrowsern</h1>
 Im Web gibt es viele verschiedene Verschlüsselungen.
 Manche sehr verbreitete sind aber schon als unsicher markiert.
-Deswegen ist es wichtig zu erkennen ob die Seite auf der man grade seine Kreditkarten Nummer eingibt auch eine gute Verschlüsselung hat.
+Deswegen ist es wichtig, zu erkennen, ob die Seite, auf der man gerade seine Kreditkartennummer eingibt, auch eine gute Verschlüsselung hat.
 <a href="#FF" class="accordion-title">Firefox</a>
 <div id="FF">
-In Firefox muss bei einer Verschlüsselten Seite ein Schloss rechts neben der Adresse sein.
-Wenn man dieses Anklicked kommt folgendes Popup:<br>
+In Firefox muss bei einer verschlüsselten Seite ein Schloss rechts neben der Adresse sein.
+Wenn man dieses anklickt, erscheint folgendes Popup:<br>
 <img src="IMAGES/Ferdinand/FirefoxDigiCertStep1.png" alt=""/><br>
-Durch ein Klick auf "More Information" öffnet sich ein neues Fenster. Hier wählt man den Security an<br>
+Durch einen Klick auf "More Information" öffnet sich ein neues Fenster. Hier wählt man den Security-Tab an.<br>
 <img src="IMAGES/Ferdinand/FirefoxDigiCertStep2.png" alt=""/><br>
-Unter "Connection Enrypted" steht nun der Verschlüsselungs Typ. Hier wird die Verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als Asymmetrische verschlüsselung benutzt. Der Symmetrische Schlüssel ist ein SHA256-Hash welcher mit AES-128 Verschlüsselt ist.
+Unter "Connection Encrypted" steht nun der Verschlüsselungs Typ. Hier wird die verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als asymmetrische Verschlüsselung benutzt. Der symmetrische Schlüssel ist ein SHA256-Hash welcher mit AES-128 verschlüsselt ist.
 </div>
 <a href="#CM" class="accordion-title">Chrome</a>
 <div id="CM">
-Bei Google Chrome steht bei verschlüsselten Seiten ein Grünes Schloss rechts neben der Adresse.
-Beim Anklicken öffnet siche nun folgenes Fenster:<br>
+Bei Google Chrome steht bei verschlüsselten Seiten ein grünes Schloss rechts neben der Adresse.
+Beim Anklicken öffnet sich nun folgenes Fenster:<br>
 <img src="IMAGES/Ferdinand/MMGKTLS1.2RSA.png" alt=""/><br>
-Hier kann direkt abgelesen werden das die Verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als Asymmetrische verschlüsselung benutzt. Der Symmetrische Schlüssel ist ein SHA1-Hash welcher mit AES-256 Verschlüsselt ist.
+Hier kann direkt abgelesen werden, dass die verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als asymmetrische Verschlüsselung benutzt. Der symmetrische Schlüssel ist ein SHA1-Hash, welcher mit AES-256 verschlüsselt ist.
 </div>
 <a href="#OA" class="accordion-title">Opera</a>
 <div id="OA">
-Bei Opera ist bei versschlüsselten Seiten rechts neben der Adresse ein Schloss.
+Bei Opera ist bei verschlüsselten Seiten rechts neben der Adresse ein Schloss.
 Beim Anklicken öffnet sich ein Popup.
-Durch das Drücken von "Details anzeigen" öffnet sich folgendes Fenster:<br>
+Durch das Klicken auf "Details anzeigen" öffnet sich folgendes Fenster:<br>
 <img src="IMAGES/Ferdinand/OperaDigiCert.png" alt=""/><br>
-Hier kann direkt abgelesen werden das die Verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als Asymmetrische verschlüsselung benutzt. Der Symmetrische Schlüssel ist ein SHA1-Hash welcher mit AES-256 Verschlüsselt ist.
+Hier kann direkt abgelesen werden, dass die verschlüsselte Kommunikation über TLS durchgeführt, welches RSA als asymmetrische Verschlüsselung benutzt. Der symmetrische Schlüssel ist ein SHA1-Hash, welcher mit AES-256 verschlüsselt ist.
 </div>
-<a href="#SE" class="accordion-title">Safarie</a>
+<a href="#SE" class="accordion-title">Safari</a>
 <div id="SE">
-Bei Safarie steht bei verschlüsselten Verbindungen ein Schloss links neben der Adresse.
+Bei Safari steht bei verschlüsselten Verbindungen ein Schloss links neben der Adresse.
 Bei Anklicken öffnet sich folgendes Fenster:<br>
 <img src="IMAGES/Ferdinand/IEDigiCertStep2.png" alt=""/><br> 
-Hier kann unter Signaturalgorithmus ausgelesen werden das der Symmetrische Schlüssel ein SHA-256 Schlüssel.
+Hier kann unter Signaturalgorithmus ausgelesen werden, dass der symmetrische Schlüssel ein SHA-256 Schlüssel.
 Die Kommunikation ist mit RSA verschlüsselt.
-Anders als bei anderen Browsern kann nicht ausgelesen werden ob es sich um TLS als Kryptographie Protokoll handelt, auch kann nicht festgestellt werden ob AES zum verschlüsseln des SHA-256 Hash benutzt wird.
+Anders als bei anderen Browsern kann nicht ausgelesen werden, ob es sich um TLS als Kryptographieprotokoll handelt. Auch kann nicht festgestellt werden, ob AES zum Verschlüsseln des SHA-256-Hash benutzt wird.
 </div>
 <a href="#IE" class="accordion-title">Internet Explorer</a>
 <div id="IE">
-Beim Internet Explorer steht rechts neben der Adresse ein Schloss, fals die Website verschlüsselt ist. Beim Anklicken öffnet sich folgenes Fenster:<br>
+Beim Internet Explorer steht rechts neben der Adresse ein Schloss, falls die Website verschlüsselt ist. Beim Anklicken öffnet sich folgendes Fenster:<br>
 <img src="IMAGES/Ferdinand/IEDigiCertSetp1.png" alt=""/> <br>
-Ein Klick auf "Zertifikat anzeigen" und dann im neuen Fenster auf "Details" öffnet folgenes Fenster:<br>
+Ein Klick auf "Zertifikat anzeigen" und dann im neuen Fenster auf "Details" öffnet folgendes Fenster:<br>
 <img src="IMAGES/Ferdinand/IEDigiCertStep2.png" alt=""/> <br>
-Hier kann unter Signaturalgorithmus ausgelesen werden das der Symmetrische Schlüssel ein SHA-256 Schlüssel.
+Hier kann unter Signaturalgorithmus ausgelesen werden, dass der symmetrische Schlüssel ein SHA-256 Schlüssel.
 Die Kommunikation ist mit RSA verschlüsselt.
-Anders als bei anderen Browsern kann nicht ausgelesen werden ob es sich um TLS als Kryptographie Protokoll handelt, auch kann nicht festgestellt werden ob AES zum verschlüsseln des SHA-256 Hash benutzt wird.
+Anders als bei anderen Browsern kann nicht ausgelesen werden, ob es sich um TLS als Kryptographieprotokoll handelt, auch kann nicht festgestellt werden, ob AES zum Verschlüsseln des SHA-256-Hash benutzt wird.
 </div>
 <br><br>
     <a href="#TLS" class="accordion-title">TLS</a>
     <div id="TLS">
-    <p>TLS ist ein Kryptographie Protokoll um sichere Kommunikation über das Internet zu gewähren.
-Hierzu wird ein Session Key erstellt welcher die Daten symmetrisch Verschlüsselt. Dieser wird vorher mit einen Asymmetrischen Key verschlüsselt und vom Server an den Client gesendet.
-Der Symmetrische Key hat die gleiche Struktur wie der Asymmetrische und kann daher nicht von Angreifern als solcher erkannt werden. Ab TLS 1.1 wird der Asymmetrische Key mit SHA-265 statt MD5/SHA-1 erstellt. Der Session Key garantiert eine Höhere Datenrate da er einfacher zu ver/entschlüsseln ist. Damit der Symmetrische Key noch stärke wird ist in ihm die MAC-Adresse der Clients enthalten um zu verhindern das jemand ihn abfängt und auf seinen PC benutzt.
-Auch wird die MAC-Adresse des Servers mit eingebaut um zu verhindern das der Traffic auf einen falschen Server umgeleitet werden kann.
-Die Lebensdauer eines Session Key ist bis der Nutzer alle Verbindungen mit dem Server schließt oder der Server automatisch die Verbindung beendet.
-Das TLS Verfahren kommt in Browsern, E-Mail Clients, IM Programmen, VOIP und anderen zu anwendung.
+    <p>TLS ist ein Kryptographieprotokoll, um sichere Kommunikation über das Internet zu gewährleisten.
+Hierzu wird ein Session-Key erstellt, welcher die Daten symmetrisch verschlüsselt. Dieser wird vorher mit einem asymmetrischen Key verschlüsselt und vom Server an den Client gesendet.
+Der symmetrische Key hat die gleiche Struktur wie der asymmetrische und kann daher nicht von Angreifern als solcher erkannt werden. Ab TLS 1.1 wird der asymmetrische Key mit SHA-265 statt MD5/SHA-1 erstellt. Der Session-Key garantiert eine höhere Datenrate, da er einfacher zu ver- bzw. entschlüsseln ist. Damit der symmetrische Key noch stärker wird, ist in ihm die MAC-Adresse der Clients enthalten. So soll verhindert werden, dass jemand ihn abfängt und auf seinem PC benutzt.
+Auch wird die MAC-Adresse des Servers mit eingebaut, um zu verhindern, dass der Traffic auf einen falschen Server umgeleitet werden kann.
+Die Lebensdauer eines Session-Key endet, wenn der Nutzer alle Verbindungen mit dem Server schließt oder der Server automatisch die Verbindung beendet.
+Das TLS-Verfahren kommt in Browsern, E-Mail-Clients, IM-Programmen, VOIP und anderen zur A<style> nwendung.</style>
 </p>
 	</div>
 	<a href="#SSL" class="accordion-title">SSL</a>
@@ -174,9 +175,8 @@ Ein Schlüssel dem eine Große Anzahl von Nutzern vertrauen ist mit größerer W
 <br><h1>Andere Verschlüsslungen</h1>
 Text
 <br><h1>Quellen</h1>
-<h3>Letzter Zugriff 20.01.2015:</h3>
-<a target="_blank" href="http://www.pgp.com">pgp.com</a><br>
-<a target="_blank" href="http://en.wikipedia.org/wiki/Web_of_trust">wikipedia.org/wiki/Web_of_trust</a><br>
+<a target="_blank" href="http://www.pgp.com">Symantec: PGP, online Verfügbar unter: pgp.com, zuletzt geprüft am 20.01.2015</a><br>
+<a target="_blank" href="http://en.wikipedia.org/wiki/Web_of_trust">Wikipedia: Web of Trust, online Verfügbar unter: wikipedia.org/wiki/Web_of_trust, zuletzt geprüft am 20.01.2015</a><br>
 <a target="_blank" href="https://www.gnupg.org/gph/en/manual/x135.html">gnupgp.org/gph/en/manual/x135.html</a><br>
 <a target="_blank" href="http://www.pgpi.org/doc/pgpintro/">pgpi.org/doc/pgpintro</a><br>
 <a target="_blank" href="https://tools.ietf.org/html/rfc5246">tools.ieft.org/html/rfc5246</a><br>
