@@ -50,19 +50,19 @@ ul {
 	font-size: 1.3em;
 }
 
-a:link {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:link {
     text-decoration: none;
 }
 
-a:visited {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:visited {
     text-decoration: none;
 }
 
-a:hover {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:hover {
     text-decoration: none;
 }
 
-a:active {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:active {
     text-decoration: none;
 }
 
@@ -211,7 +211,7 @@ a:active {
 }
 
 #menubar ul li.cat1 a:after{
-	content:"Geschichte";
+	content:"Startseite";
 }
 
 #menubar ul li.cat1 a:hover:after{
@@ -219,19 +219,19 @@ a:active {
 }
 
 #menubar ul li.cat2 a:after{
-	content:"RSA";
+	content:"Entstehung";
 }
 
 #menubar ul li.cat2 a:hover:after{
-	content:"010";
+	content:"0110101101";
 }
 
 #menubar ul li.cat3 a:after{
-	content:"Thema 1";
+	content:"RSA";
 }
 
 #menubar ul li.cat3 a:hover:after{
-	content:"0101110";
+	content:"010";
 }
 
 #menubar ul li.cat4 a:after{
@@ -252,4 +252,22 @@ html {
 
 #Entstehung, #Verfahren, #Sicherheit {
 	font-size:1.5em;
+}
+
+#scheibe img{
+	height:180px;
+	position: absolute;
+	float: left;
+	width:180px;
+	margin-top: 170px;
+	margin-left: 8px;
+}
+
+#enigma img{
+	height:180px;
+	position: absolute;
+	float: left;
+	width: 180px;
+	margin-top: 370px;
+	margin-left: 8px;
 }
