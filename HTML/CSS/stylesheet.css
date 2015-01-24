@@ -157,6 +157,10 @@ ul {
 	padding: 14px 34px 14px 34px;
 }
 
+#footbar ul li a:hover{
+	font-weight: bold;
+}
+
 #sidebar ul li a {
 	text-decoration: none;
 	display: block;
