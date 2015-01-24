@@ -35,17 +35,19 @@ ul {
     list-style: none;
 }
 
-a {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a {
     margin: 0;
     padding: 0;
-    font-size: 100%;
     vertical-align: baseline;
     background: transparent;
     text-decoration: none;
     color: #111;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-            box-sizing: border-box;
+       	 -o-box-sizing: border-box;
+            box-sizing: border-box;    
+	font-family: monospace;
+	font-size: 1.3em;
 }
 
 a:link {
@@ -68,7 +70,7 @@ a:active {
 	position:relative;
 	overflow:auto;
 	margin:0 auto;
-	width: 1000px;
+	width: 1050px;
 	height: 2000px;
 	background-color: #D8D8D8;
 }
@@ -181,11 +183,6 @@ a:active {
 	font-weight:bold;
 }
 
-a {
-	font-family: monospace;
-	font-size: 1.3em;
-}
-
 #text {
 	width: 72%;
 	height: 87%;
@@ -235,7 +232,7 @@ a {
 }
 
 html { 
-  background: url(http://p1.pichost.me/i/63/1872431.jpg) no-repeat center center fixed; 
+  background: url(lolol420.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
