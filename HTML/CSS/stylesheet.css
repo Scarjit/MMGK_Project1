@@ -250,7 +250,7 @@ img{
 }
 
 body { 
-  background: url(Hintergrund.jpg) no-repeat center fixed; 
+  background: url(images/Hintergrund.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
