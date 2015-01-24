@@ -95,10 +95,19 @@ a:active {
 }
 
 #sidebar {
-	position:fixed;
+	position:absolute;
 	float:left;
-	width: 11%;
+	width: 15%;
 	margin-top: 40px;
+	margin-left: 8px;
+}
+
+img{
+	height:180px;
+	position: absolute;
+	float: left;
+	width:180px;
+	margin-top: 170px;
 	margin-left: 8px;
 }
 
@@ -139,6 +148,11 @@ a:active {
 	list-style: none;
 	float: left;
 	border-right: 1px solid #dfdfdf;
+}
+
+#footbar ul li:hover{
+
+	font-weight: bold;
 }
 
 #sidebar ul li {
@@ -208,7 +222,7 @@ a:active {
 }
 
 #menubar ul li.cat1 a:hover:after{
-	content:"BlubbBlubb";
+	content:"7641282784";
 }
 
 #menubar ul li.cat2 a:after{
@@ -216,7 +230,7 @@ a:active {
 }
 
 #menubar ul li.cat2 a:hover:after{
-	content:"BlubbBlubb";
+	content:"4206426419";
 }
 
 #menubar ul li.cat3 a:after{
@@ -224,7 +238,7 @@ a:active {
 }
 
 #menubar ul li.cat3 a:hover:after{
-	content:"BlubbBlubb";
+	content:"841";
 }
 
 #menubar ul li.cat4 a:after{
@@ -232,11 +246,11 @@ a:active {
 }
 
 #menubar ul li.cat4 a:hover:after{
-	content:"BlubbBlubb";
+	content:"62145 A";
 }
 
 body { 
-  background: url(images/Hintergrund.jpg) no-repeat center fixed; 
+  background: url(Hintergrund.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
