@@ -9,7 +9,12 @@
 	background:url(images/bg.png);
 	max-width:100%;
 }
-
+#mt{
+	color:#000000;	
+}
+#mt:hover{
+	color:#000000;
+}
 .nav{
 	background:url(images/bg.png);
 	max-width:100%;
