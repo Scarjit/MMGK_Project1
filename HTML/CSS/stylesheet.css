@@ -81,16 +81,21 @@ ul {
 	height: 80px;
 	float:top;
 	background-color:#CEE3F6;
-	background-color: rgba(255,255,255,.3);
+	background-color: rgba(255,255,255,.4);
 	width:1050px;
 }
 
 #head p {
 	position:absolute;
-	font-size: 3em;
+	font-size: 3.2em;
 	margin-top:15px;
 	margin-left:18%;
-	font-weight: bold;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 5px 0px 3px #151515;
+    color: #81F7F3;
+}
 }
 
 #header {
