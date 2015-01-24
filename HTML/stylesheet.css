@@ -38,16 +38,17 @@ ul {
 .cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a {
     margin: 0;
     padding: 0;
+    font-size: 100%;
+    font-family: monospace;
+	font-size: 1.3em;
     vertical-align: baseline;
     background: transparent;
     text-decoration: none;
     color: #111;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-       	 -o-box-sizing: border-box;
-            box-sizing: border-box;    
-	font-family: monospace;
-	font-size: 1.3em;
+            box-sizing: border-box;
+
 }
 
 a:link {
@@ -70,7 +71,7 @@ a:active {
 	position:relative;
 	overflow:auto;
 	margin:0 auto;
-	width: 1050px;
+	width: 1000px;
 	height: 2000px;
 	background-color: #D8D8D8;
 }
@@ -89,7 +90,8 @@ a:active {
 }
 
 #header {
-	font-size:1.5em;
+	font-size:19px;
+	font-family: Dosis, sans-serif;
 }
 
 #sidebar {
@@ -101,8 +103,8 @@ a:active {
 }
 
 #inhalt {
-	font-size:1.3em;
-	font-family:serif;
+	font-size:17px;
+	font-family:Dosis, sans-serif;
 }
 
 #footbar {
@@ -183,6 +185,8 @@ a:active {
 	font-weight:bold;
 }
 
+
+
 #text {
 	width: 72%;
 	height: 87%;
@@ -200,7 +204,7 @@ a:active {
 }
 
 #menubar ul li.cat1 a:after{
-	content:"Geschichte";
+	content:"Startseite";
 }
 
 #menubar ul li.cat1 a:hover:after{
@@ -208,7 +212,7 @@ a:active {
 }
 
 #menubar ul li.cat2 a:after{
-	content:"RSA";
+	content:"Geschichte";
 }
 
 #menubar ul li.cat2 a:hover:after{
@@ -216,7 +220,7 @@ a:active {
 }
 
 #menubar ul li.cat3 a:after{
-	content:"Thema 1";
+	content:"RSA";
 }
 
 #menubar ul li.cat3 a:hover:after{
@@ -231,10 +235,11 @@ a:active {
 	content:"BlubbBlubb";
 }
 
-html { 
-  background: url(lolol420.jpg) no-repeat center center fixed; 
+body { 
+  background: url(Hintergrund.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
