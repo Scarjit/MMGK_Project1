@@ -38,17 +38,16 @@ ul {
 .cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a {
     margin: 0;
     padding: 0;
-    font-size: 100%;
-    font-family: monospace;
-	font-size: 1.3em;
     vertical-align: baseline;
     background: transparent;
     text-decoration: none;
     color: #111;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-            box-sizing: border-box;
-
+       	 -o-box-sizing: border-box;
+            box-sizing: border-box;    
+	font-family: monospace;
+	font-size: 1.3em;
 }
 
 a:link {
@@ -71,49 +70,45 @@ a:active {
 	position:relative;
 	overflow:auto;
 	margin:0 auto;
-	width: 1000px;
-	height: 2000px;
-	background-color: #D8D8D8;
+	width: 1050px;
+	height: 2500px;
+	background-color: #CEE3F6;
 }
 
 #head {
+	position:relative;
 	margin: 0 auto;
 	height: 80px;
-	width: 800px;
 	float:top;
+	background-color:#CEE3F6;
+	background-color: rgba(255,255,255,.3);
+	width:1050px;
 }
 
 #head p {
+	position:absolute;
 	font-size: 3em;
-	margin-top:10px;
+	margin-top:15px;
+	margin-left:18%;
 	font-weight: bold;
 }
 
 #header {
-	font-size:19px;
-	font-family: Dosis, sans-serif;
+	font-size:1.5em;
 }
 
 #sidebar {
-	position:absolute;
+	position:fixed;
 	float:left;
-	width: 15%;
+	width: 11%;
+	min-width:140px;
 	margin-top: 40px;
 	margin-left: 8px;
 }
 
-img{
-	height:180px;
-	position: absolute;
-	float: left;
-	width:180px;
-	margin-top: 170px;
-	margin-left: 8px;
-}
-
 #inhalt {
-	font-size:17px;
-	font-family:Dosis, sans-serif;
+	font-size:1.3em;
+	font-family:serif;
 }
 
 #footbar {
@@ -150,11 +145,6 @@ img{
 	border-right: 1px solid #dfdfdf;
 }
 
-#footbar ul li:hover{
-
-	font-weight: bold;
-}
-
 #sidebar ul li {
 	list-style: none;
 	border-bottom: 1px solid #dfdfdf;
@@ -175,13 +165,13 @@ img{
 }
 
 #menubar ul li.cat1:hover a, #menubar ul li.cat1:hover > ul li a  {
-    background-color: #FAAC58;
+    background-color: #004C66;
 }
 #menubar ul li.cat2:hover a, #menubar ul li.cat2:hover > ul li a  {
-    background-color: #8CB302;
+    background-color: #004C66;
 }
 #menubar ul li.cat3:hover a, #menubar ul li.cat3:hover > ul li a {
-    background-color: #008C74;
+    background-color: #004C66;
 }
 #menubar ul li.cat4:hover a, #menubar ul li.cat4:hover > ul li a {
     background-color: #004C66;
@@ -199,15 +189,18 @@ img{
 	font-weight:bold;
 }
 
-
-
 #text {
 	width: 72%;
-	height: 87%;
+	height: 90%;
 	margin-left: 210px;
 	margin-top: 40px;
 	background-color: #FAFAFA;
 	display:block;
+	font-size:1.3em;
+}
+
+#text sub, #text sup {
+	font-size:0.8em;
 }
 
 .cat1 a, .cat2 a, .cat3 a, .cat4 a {
@@ -218,27 +211,27 @@ img{
 }
 
 #menubar ul li.cat1 a:after{
-	content:"Startseite";
-}
-
-#menubar ul li.cat1 a:hover:after{
-	content:"7641282784";
-}
-
-#menubar ul li.cat2 a:after{
 	content:"Geschichte";
 }
 
-#menubar ul li.cat2 a:hover:after{
-	content:"4206426419";
+#menubar ul li.cat1 a:hover:after{
+	content:"0110101101";
 }
 
-#menubar ul li.cat3 a:after{
+#menubar ul li.cat2 a:after{
 	content:"RSA";
 }
 
+#menubar ul li.cat2 a:hover:after{
+	content:"010";
+}
+
+#menubar ul li.cat3 a:after{
+	content:"Thema 1";
+}
+
 #menubar ul li.cat3 a:hover:after{
-	content:"841";
+	content:"0101110";
 }
 
 #menubar ul li.cat4 a:after{
@@ -246,14 +239,17 @@ img{
 }
 
 #menubar ul li.cat4 a:hover:after{
-	content:"62145 A";
+	content:"1010110";
 }
 
-body { 
-  background: url(images/Hintergrund.jpg) no-repeat center fixed; 
+html { 
+  background: url(images/lolol420.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+#Entstehung, #Verfahren, #Sicherheit {
+	font-size:1.5em;
+}
