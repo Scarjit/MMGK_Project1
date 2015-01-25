@@ -35,7 +35,7 @@ ul {
     list-style: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -50,19 +50,19 @@ ul {
 	font-size: 1.3em;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:link {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:link {
     text-decoration: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:visited {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:visited {
     text-decoration: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:hover {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:hover {
     text-decoration: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a:active {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:active {
     text-decoration: none;
 }
 
@@ -184,6 +184,9 @@ ul {
 #menubar ul li.cat4:hover a, #menubar ul li.cat4:hover > ul li a {
     background-color: #004C66;
 }
+#menubar ul li.cat11:hover a, #menubar ul li.cat11:hover > ul li a {
+	background-color: #004C66;
+}
 #menubar ul li:hover > a {
     color: #FAFAFA;
 }
@@ -211,7 +214,7 @@ ul {
 	font-size:0.8em;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a, .cat11 a {
 	-webkit-transition: all 1s ease;
   	-moz-transition: all 1s ease;
   	-o-transition: all 1s ease;
@@ -243,11 +246,19 @@ ul {
 }
 
 #menubar ul li.cat4 a:after{
-	content:"Thema 2";
+	content:"Anwendung";
 }
 
 #menubar ul li.cat4 a:hover:after{
-	content:"1010110";
+	content:"101011001";
+}
+
+#menubar ul li.cat11 a:after{
+	content:"Proxy";
+}
+
+#menubar ul li.cat11 a:hover:after{
+	content:"10101";
 }
 
 html { 
@@ -266,7 +277,7 @@ html {
 	height:180px;
 	position: absolute;
 	float: left;
-	width:180px;
+	width:190px;
 	margin-top: 170px;
 	margin-left: 8px;
 }
@@ -275,7 +286,8 @@ html {
 	height:180px;
 	position: absolute;
 	float: left;
-	width: 180px;
+	width: 190px;
 	margin-top: 370px;
 	margin-left: 8px;
 }
+
