@@ -211,11 +211,11 @@ ul {
 	background-color: #B5DEF2;
 	display:block;
 	font-size:1.3em;
-	font-family: Arial;
+	font-family: Georgia;
 }
 
 #text sub, #text sup {
-	font-size:0.8em;
+	font-size:0.7em;
 }
 
 .cat1 a, .cat2 a, .cat3 a, .cat4 a, .cat11 a {
