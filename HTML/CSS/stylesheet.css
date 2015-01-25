@@ -35,7 +35,7 @@ ul {
     list-style: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11, .cat12, .cat13, .cat14 a {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -50,19 +50,19 @@ ul {
 	font-size: 1.3em;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:link {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a, .cat11 a, .cat12 a, .cat13 a, .cat14 a:link {
     text-decoration: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:visited {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a, .cat11 a, .cat12 a, .cat13 a, .cat14 a:visited {
     text-decoration: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:hover {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a, .cat11 a, .cat12 a, .cat13 a, .cat14 a:hover {
     text-decoration: none;
 }
 
-.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10, .cat11 a:active {
+.cat1 a, .cat2 a, .cat3 a, .cat4 a,.cat5 a, .cat6 a, .cat7 a, .cat8 a,.cat9 a, .cat10 a, .cat11 a, .cat12 a, .cat13 a, .cat14 a:active {
     text-decoration: none;
 }
 
@@ -199,6 +199,15 @@ ul {
 #sidebar ul li.cat7:hover a, #sidebar ul li.cat7 > ul li a {
 	font-weight:bold;
 }
+#sidebar ul li.cat12:hover a, #sidebar ul li.cat12 > ul li a {
+	font-weight:bold;
+}
+#sidebar ul li.cat13:hover a, #sidebar ul li.cat13 > ul li a {
+	font-weight:bold;
+}
+#sidebar ul li.cat14:hover a, #sidebar ul li.cat14 > ul li a {
+	font-weight:bold;
+}
 
 #filler {
 	height: 150px;
@@ -281,19 +290,11 @@ html {
 	height:180px;
 	position: absolute;
 	float: left;
-	width:190px;
-	margin-top: 170px;
+	width: 190px;
+	margin-top: 320px;
 	margin-left: 8px;
 }
 
-#enigma img{
-	height:180px;
-	position: absolute;
-	float: left;
-	width: 190px;
-	margin-top: 370px;
-	margin-left: 8px;
-}
 
 #hotspot{
 	height: 200px;
@@ -303,4 +304,29 @@ html {
 #vpn{
 	height: 200px;
 	width: 200px;
+}
+
+#article{
+	float: left;
+	border: 0;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#enigma{
+	float:right;
+	border: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 200px;
+	width: 200px;
+}
+
+#scheibe{
+	float: left;
+	border: 0;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 150px;
+	width: 150px;
 }
