@@ -306,6 +306,8 @@ html {
 	width: 200px;
 }
 
+
+
 #article{
 	float: left;
 	border: 0;
@@ -329,4 +331,8 @@ html {
 	margin-left: 5px;
 	height: 150px;
 	width: 150px;
+}
+
+#mittig{
+	margin-left: 5px;
 }
