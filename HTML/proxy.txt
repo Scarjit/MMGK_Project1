@@ -1,0 +1,23 @@
+Proxy:
+
+-Kommunikationsschnittstelle, die als Vermittler zwischen zwei Rechner geschaltet wird
+- holt als "Stellvertreter" daten aus dem internet für einen clienten
+-client->proxy->server->proxy->client
+-man greift nicht direkt auf den server zu, sondern bittet nur den proxy die daten für einen zu holen.
+-wahre adresse des clients bleibt verborgen -> anonymes surfen
+
+
+
+
+
+Unter einem "Proxy" versteht man eine "Kommunikationsschnittstelle, die als Vermittler zwischen zwei Rechner geschaltet wird".(chip.de)
+Der "Proxy" holt also als Stellvertreter für einen Klienten Daten aus dem Internet. Dies läuft wie folgt ab: Der Klient greift nicht direkt auf den server zu, sonder bittet den "Proxy" die Daten für ihn zu holen. Der "Proxy" greift über seine eigen Adresse auf den server zu und holt die Daten, die er dann an den Klienten weiterleitet. Durch diese Methode bleibt die Adresse des Klienten geheim und er kann sich anonym im Internet bewegen.
+
+verschiedene Proxy-Server:
+
+Tor
+
+mehr über Tor erfahren
+Download
+
+
