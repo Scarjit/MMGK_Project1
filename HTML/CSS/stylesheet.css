@@ -71,9 +71,9 @@ ul {
 	overflow:auto;
 	margin:0 auto;
 	width: 1050px;
-	height: 2500px;
 	background-color: #120A2A;
 }
+
 
 #head {
 	position:relative;
@@ -200,9 +200,12 @@ ul {
 	font-weight:bold;
 }
 
+#filler {
+	height: 150px;
+}
+
 #text {
 	width: 72%;
-	height: 90%;
 	margin-left: 210px;
 	margin-top: 40px;
 	background-color: #B5DEF2;
